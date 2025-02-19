@@ -18,7 +18,15 @@ namespace KAPPA_SANDALS.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        /*public IActionResult Privacy()
+        {
+            return View();
+        }*/
+        public IActionResult Products()
+        {
+            return View();
+        }
+        public IActionResult AboutUs()
         {
             return View();
         }
