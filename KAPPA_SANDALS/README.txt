@@ -23,6 +23,26 @@ Received error to Apply Migrations
 Clicked Apply Migrations
 Registered as a user
 Tried to log in 
-10:10 received error invalid input
+10:10 received error invalid input - need to validate registration through email
+Verified Database creation and email record creation by checking Data in Tables
+2025-02-12 
+10:30
+cloned repository to Github and invited team members Anand and Ramandeep
+2025-02-19
+10:40 Selected Team Logo
+Kappa_Sandals is the name of our product
+11:00
+Identified product attributes: price, age group, design, color & size
+Grouped attributes into five categories including product ID
+2025-02-19
+11:15
+created "About" company text
+Researched on how to bold text and change background page color
+11:40 finalized About Page
+11:45 Need to update About Page
+
+
+
+
 
 
