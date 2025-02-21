@@ -40,8 +40,13 @@ created "About" company text
 Researched on how to bold text and change background page color
 11:40 finalized About Page
 11:45 Need to update About Page
-
-
+2025-02-20
+20:26
+Checking about the issues with the application
+but the application is still not completed:(
+2025-02-20
+21:30
+Sharing the file link of github on the blackboard.
 
 
 
