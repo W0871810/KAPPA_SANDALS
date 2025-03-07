@@ -4,8 +4,8 @@ Team Members : RAMANDEEP SINGH, IKRAM CHARIF, ANAND PATEL
 
 .NET SDK 8.0.
 
-2025-02-12
-9:48
+2025-02-12 
+9:48 
 created KAPPA_SANDALS solution
 Clean and build application
 Clean started at 9:50 AM...
@@ -28,23 +28,24 @@ Verified Database creation and email record creation by checking Data in Tables
 2025-02-12 
 10:30
 cloned repository to Github and invited team members Anand and Ramandeep
-2025-02-19
-10:40 Selected Team Logo
+2025-02-19 RS
+10:40 Selected Team Logo for KAPPA
 Kappa_Sandals is the name of our product
 11:00
 Identified product attributes: price, age group, design, color & size
 Grouped attributes into five categories including product ID
-2025-02-19
-11:15
+2025-02-19 AP
+11:15 
 created "About" company text
 Researched on how to bold text and change background page color
 11:40 finalized About Page
 11:45 Need to update About Page
-2025-02-20
+
+2025-02-20 RS
 20:26
 Checking about the issues with the application
 but the application is still not completed:(
-2025-02-20
+2025-02-20 RS
 21:30
 Sharing the file link of github on the blackboard.
 
@@ -66,5 +67,14 @@ so I wanted to center it
 </center>
 Looked nice
 
+2025-03-07 RS
+11:38 AM
+Working on the readme file to set my initials 
 
+2025-03-07 RS
+11:38 AM
+Checking the working of the application
 
+2025-03-07 RS
+11:40 AM
+Pushed to the readme to the github:)
