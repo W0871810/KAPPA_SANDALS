@@ -4,8 +4,8 @@ Team Members : RAMANDEEP SINGH, IKRAM CHARIF, ANAND PATEL
 
 .NET SDK 8.0.
 
-2025-02-12
-9:48
+2025-02-12 
+9:48 
 created KAPPA_SANDALS solution
 Clean and build application
 Clean started at 9:50 AM...
@@ -40,11 +40,12 @@ created "About" company text
 Researched on how to bold text and change background page color
 11:40 finalized About Page
 11:45 Need to update About Page
-2025-02-20
+
+2025-02-20 RS
 20:26
 Checking about the issues with the application
 but the application is still not completed:(
-2025-02-20
+2025-02-20 RS
 21:30
 Sharing the file link of github on the blackboard.
 
@@ -86,3 +87,6 @@ user: ramandeep@KappaSandals.ca
 pass: Rama@7536
 
 
+2025-03-07 AP
+03:18 PM
+Tried to push and commit it to git but was unable to push.
