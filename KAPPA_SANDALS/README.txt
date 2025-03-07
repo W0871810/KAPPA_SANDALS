@@ -103,4 +103,6 @@ Pulled and tried to run the application.
 03:10 PM
 Application showing error while running :(
 
-
+2025-03-07 AP
+03:18 PM
+Tried to push and commit it to git but was unable to push.
