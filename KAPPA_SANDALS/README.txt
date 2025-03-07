@@ -49,5 +49,22 @@ but the application is still not completed:(
 Sharing the file link of github on the blackboard.
 
 
+2025-03-6 11:53 IC
+task: add a Logo image for product
+created an image using copilot
+saved image as .jpg using paint
+Located images folder
+copied and pasted image in wwwroot/Images folder
+using file explorer
+appended the view file Index.cshtml to include logo
+command used
+<img src="/Images/sandal.jpg" alt="Company Logo" width="300" height="200" style="float: left; />
+Didn't like the way it looked
+so I wanted to center it
+<center>
+<img src="/Images/sandal.jpg" alt="Company Logo" width="300" height="200" />
+</center>
+Looked nice
+
 
 

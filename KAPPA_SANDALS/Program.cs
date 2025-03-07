@@ -1,4 +1,5 @@
-﻿using KAPPA_SANDALS.Data;
+﻿using KAPPA_SANDALS;
+using KAPPA_SANDALS.Data;
 using KAPPA_SANDALS.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ builder.Services.AddDbContext<KAPPA_SANDALSContext>(options =>
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -24,7 +26,7 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
-    SeedData.Initialize(services);
+   SeedData.Initialize(services);
 }
 
 // Configure the HTTP request pipeline.
