@@ -29,12 +29,12 @@ Verified Database creation and email record creation by checking Data in Tables
 10:30
 cloned repository to Github and invited team members Anand and Ramandeep
 2025-02-19
-10:40 Selected Team Logo
+10:40 Selected Team Logo IC RS Anand
 Kappa_Sandals is the name of our product
 11:00
 Identified product attributes: price, age group, design, color & size
 Grouped attributes into five categories including product ID
-2025-02-19
+2025-02-19 IC
 11:15
 created "About" company text
 Researched on how to bold text and change background page color
@@ -66,5 +66,23 @@ so I wanted to center it
 </center>
 Looked nice
 
+
+2025-03-7 16:20 IC
+- Added Role base
+- Changes in Program.cs
+- Modify The Sandals Controller
+- Modify the view for Sandax (Index.cshtml)
+
+
+Admin User
+user:Ikram@KappaSandals.ca
+pass:Admin@7414
+
+Guest User
+user: Anand@KappaSandals.ca
+pass: Anand@5284
+
+user: ramandeep@KappaSandals.ca
+pass: Rama@7536
 
 

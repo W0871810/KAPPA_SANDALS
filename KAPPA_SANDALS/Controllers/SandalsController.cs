@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using KAPPA_SANDALS.Data;
 using KAPPA_SANDALS.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace KAPPA_SANDALS.Controllers
 {
     public class SandalsController : Controller
     {
         private readonly KAPPA_SANDALSContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public SandalsController(KAPPA_SANDALSContext context)
+        public SandalsController(KAPPA_SANDALSContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Sandals
@@ -44,6 +48,7 @@ namespace KAPPA_SANDALS.Controllers
         }
 
         // GET: Sandals/Create
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
             return View();
@@ -52,6 +57,7 @@ namespace KAPPA_SANDALS.Controllers
         // POST: Sandals/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Color,Design,Price,Age,Size")] Sandal sandal)
@@ -66,6 +72,7 @@ namespace KAPPA_SANDALS.Controllers
         }
 
         // GET: Sandals/Edit/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,6 +91,7 @@ namespace KAPPA_SANDALS.Controllers
         // POST: Sandals/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Color,Design,Price,Age,Size")] Sandal sandal)
@@ -117,6 +125,7 @@ namespace KAPPA_SANDALS.Controllers
         }
 
         // GET: Sandals/Delete/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,6 +144,7 @@ namespace KAPPA_SANDALS.Controllers
         }
 
         // POST: Sandals/Delete/5
+        [Authorize(Roles = "Administrator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
