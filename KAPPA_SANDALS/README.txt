@@ -94,3 +94,7 @@ So asking Ikram to change the permissions to private and invite Professor Andrew
 2025-03-07 RS
 11:55 AM
 Done with the changes from my end:)
+
+2025-03-07 AP
+03:05 PM
+Pulled and tried to run the application.
