@@ -29,7 +29,7 @@ Verified Database creation and email record creation by checking Data in Tables
 10:30
 cloned repository to Github and invited team members Anand and Ramandeep
 2025-02-19 RS
-10:40 Selected Team Logo for KAPPA
+10:40 Selected Team Logo for KAPPA 
 Kappa_Sandals is the name of our product
 11:00
 Identified product attributes: price, age group, design, color & size
@@ -82,3 +82,15 @@ Pushed to the readme to the github:)
 2025-03-07 RS
 11:45 AM
 Changing the permissions from Public to Private and inviting Professor Andrew:)
+
+2025-03-07 RS
+11:50 AM
+Ask checked on Github me and Anand both are unable to change the group permissions to private because we have only clone permissions not the owner permissions,
+
+2025-03-07 RS
+11:53 AM
+So asking Ikram to change the permissions to private and invite Professor Andrew:)
+
+2025-03-07 RS
+11:55 AM
+Done with the changes from my end:)
